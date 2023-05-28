@@ -6,8 +6,10 @@ def menu():
     print(
         '1 – Показать все контакты\n'
         '2 – Добавить контакт\n'
-        '3 – Поиск\n'
-        '4 – Выход'
+        '3 – Изменить контакт\n'
+        '4 – Удалить контакт\n'
+        '5 – Поиск\n'
+        '6 – Выход'
     )
     print(
 """
@@ -24,6 +26,14 @@ def error():
 def show_contacts(date: list):
     return None
 
+def data_changed(res):
+    return None
+
+def data_exists(res):
+    return None    
+
+def delite(res):
+    return None
 
 def success(res):
     return None
